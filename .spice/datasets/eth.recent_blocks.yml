@@ -1,12 +1,12 @@
 name: sgrebnov.eth.recent_blocks
 type: append
-migrations:
-  - name: create_table
-    sql: |
-      CREATE TABLE IF NOT EXISTS sgrebnov.playground-app.eth-recent_blocks (
-        block_number BIGINT PRIMARY KEY,
-        greeting TEXT
-      )
+# migrations:
+#   - name: create_table
+#     sql: |
+#       CREATE TABLE IF NOT EXISTS sgrebnov.playground-app.eth-recent_blocks (
+#         block_number BIGINT PRIMARY KEY,
+#         greeting TEXT
+#       )
 firecache:
   enabled: false
   trigger: number
