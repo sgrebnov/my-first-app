@@ -1,4 +1,4 @@
-name: eth.recent_blocks
+name: mydb.eth.recent_blocks
 type: append
 firecache:
   enabled: false
