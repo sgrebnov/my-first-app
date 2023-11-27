@@ -1,5 +1,5 @@
 name: 'sgrebnov."playground-app".my_custom_view'
-type: view
+type: append
 migrations:
   - name: create_view
     sql: |
