@@ -1,4 +1,4 @@
-name: sgrebnov.eth.recent_blocks
+name: eth.recent_blocks
 firecache:
   enabled: true
   trigger: block_number
