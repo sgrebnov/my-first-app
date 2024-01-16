@@ -1,6 +1,6 @@
 name: sgrebnov.eth.recent_blocks
 type: append
 firecache:
-  enabled: false
+  enabled: true
   trigger: number
   time_column: timestamp
