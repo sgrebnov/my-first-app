@@ -1,5 +1,5 @@
 name: eth.recent_blocks
 firecache:
-  enabled: true
+  enabled: false
   trigger: block_number
   time_column: block_timestamp
