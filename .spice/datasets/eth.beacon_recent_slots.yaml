@@ -1,5 +1,5 @@
 name: eth.beacon.recent_slots
-type: append
+type: overwrite
 firecache:
   enabled: true
   trigger: block_slot
