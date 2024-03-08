@@ -1,5 +1,5 @@
 name: eth.recent_transactions
-type: append
+type: overwrite
 firecache:
   enabled: true
   trigger: block_number
