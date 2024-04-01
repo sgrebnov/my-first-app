@@ -1,0 +1,11 @@
+name: sgrebnov.datasets.tpch_customer
+type: view
+access:
+  read:
+    - '*'
+migrations:
+  - name: create_view
+    sql: |
+      CREATE OR REPLACE VIEW sgrebnov.datasets.tpch_customer AS (
+        SELECT * FROM spiceai.datasets.internal_tpch_sf1_customer
+      )
